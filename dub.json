@@ -1,0 +1,13 @@
+{
+	"name": "aurora-rendering",
+	"authors": [
+		"Adam Wilson"
+	],
+	"dependencies": {
+		"eventcore": "~>0.8.34",
+		"aurora-directx": "~>12.1.0"
+	},
+	"description": "The Aurora Graphics System Rendering Library",
+	"copyright": "Copyright © 2018, Adam Wilson",
+	"license": "BSL-1.0"
+}

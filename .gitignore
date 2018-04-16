@@ -1,0 +1,19 @@
+#DUB
+.dub/
+*.selections.json
+
+
+#D Outputs
+docs.json
+__dummy.html
+docs/
+aurora-rendering.so
+aurora-rendering.dylib
+aurora-rendering.dll
+aurora-rendering.a
+aurora-rendering.lib
+aurora-rendering-test-*
+*.exe
+*.o
+*.obj
+*.lst
