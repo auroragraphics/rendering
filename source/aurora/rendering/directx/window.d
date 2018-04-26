@@ -92,7 +92,7 @@ public class WindowsWindow : Window
 extern(Windows) LRESULT WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) nothrow {
     try {
         auto window = cast(WindowsWindow)Application.Current.GetWindow(WindowHandle(hwnd));
-        window.internalWndProc(hwnd, message, wParam, lParam);
+        return window.internalWndProc(hwnd, message, wParam, lParam);
     }
     catch (Throwable e) { }
     return 0;
